@@ -34,7 +34,7 @@ In a 50 MW plant (e.g., Andasol 3), this saves **145.56 kW** of parasitic load.
 
 ## Physics and Engineering Concepts
 - Stefan-Boltzmann law (radiative heat transfer)
-- Ohm’s law and electrical power ($ P = IV $)
+- Ohm’s law and electrical power ($P = IV$)
 - Parabolic reflector optics and focal geometry
 - Feedback control systems in IoT
 
