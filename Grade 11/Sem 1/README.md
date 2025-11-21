@@ -18,7 +18,7 @@ This process simultaneously purifies water and produces biomass usable as organi
 - **pH correction**: from 8.0 to neutral range (7.0–7.4) — **100% efficiency**
 - **TDS reduction**: from ~690 ppm to ~272 ppm — **60.54% efficiency**  
   Efficiency formula:  
-  $\text{Efficiency} = \frac{|\text{TDS}_{\text{initial}} - \text{TDS}_{\text{final}}|}{\text{TDS}_{\text{initial}}} \times 100\%$
+  $$\text{Efficiency} = \frac{|\text{TDS}_{\text{initial}} - \text{TDS}_{\text{final}}|}{\text{TDS}_{\text{initial}}} \times 100\%$$
 
 ## Materials and Cost
 All materials were locally sourced and reused where possible. Total cost was less than 70 L.E. (**< $2.33**).
