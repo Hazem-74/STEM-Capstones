@@ -16,7 +16,7 @@ The prototype relies on Archimedes’ principle:
 > *The upward buoyant force equals the weight of displaced fluid.*  
 
 Mathematically:  
-\( F_b = \rho_{\text{water}} \cdot g \cdot V_{\text{submerged}} \geq W_{\text{bridge + load}} \)  
+$F_b = \rho_{\text{water}} \cdot g \cdot V_{\text{submerged}} \geq W_{\text{bridge + load}}$  
 
 A low center of mass ensures rotational stability and prevents capsizing.
 
@@ -38,7 +38,7 @@ Geometric similarity was maintained with a scaling factor of 0.3 (1 m in prototy
 - Achieved design requirements: **high efficiency, safety, low cost**
 
 ## Physics Concepts Applied
-- Newton’s Second Law (\( F = ma \))
+- Newton’s Second Law ($F = ma$)
 - Rotational equilibrium and torque
 - Density, specific gravity, and buoyant force
 - Stress distribution in curved structures
