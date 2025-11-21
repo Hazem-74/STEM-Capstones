@@ -1,49 +1,45 @@
-# Martyr Mohamed Hossam Floating Bridge  
-Grade 10 Capstone Project | Sharkia STEM School | 2019–2020
+# Automonitor Trough System (Concentrated Solar Power)  
+Grade 12 Capstone Project | Sharkia STEM School | 2021–2022
 
-SDGs: SDG 9 (Industry, Innovation & Infrastructure), SDG 11 (Sustainable Cities and Communities)
+SDGs: SDG 7 (Affordable & Clean Energy), SDG 9 (Industry & Innovation), SDG 13 (Climate Action)
 
 ## Problem Statement
-Urban congestion in Dakahlia Governorate—particularly between Talkha and El Mansoura—is worsened by limited river crossings. Existing bridges are costly, immobile, and concentrated in southern zones, forcing northern residents to rely on slow ferries or detours exceeding 2 km.
+Concentrated Solar Power (CSP) plants consume significant electricity to run feedwater pumps continuously—even when thermal oil is sufficiently hot—reducing net efficiency.
 
 ## Scientific Principles
 
-### Arch Structural Design
-The bridge employs an arch configuration to convert vertical loads into compressive forces along the curve, minimizing bending moments and material stress. This design leverages principles of static equilibrium and torque distribution.
+### Thermal Regulation and Control
+The system uses an NTC temperature sensor to activate the feedwater pump only when thermal oil temperature ≥ 110°C and deactivate it at ≤ 90°C. Energy savings follow:  
+\( E = P \cdot t = (I \cdot V) \cdot t \)
 
-### Buoyancy and Hydrostatics
-The prototype relies on Archimedes’ principle:  
-> *The upward buoyant force equals the weight of displaced fluid.*  
+### Optical Geometry
+Parabolic trough dimensions were derived from concentration ratio equations:  
+- Aperture width: 65 cm  
+- Focal distance: 16.25 cm  
+- Rim angle: 90°  
+- Maximum concentration ratio: **C = 68.3**
 
-Mathematically:  
-\( F_b = \rho_{\text{water}} \cdot g \cdot V_{\text{submerged}} \geq W_{\text{bridge + load}} \)  
-
-A low center of mass ensures rotational stability and prevents capsizing.
-
-### Scaling and Modeling
-Geometric similarity was maintained with a scaling factor of 0.3 (1 m in prototype ≈ 100 m in real bridge). Dimensional tolerances were recorded to assess structural robustness.
-
-## Materials and Cost
-| Item               | Quantity      | Cost (L.E.) | Cost ($) |
-|--------------------|---------------|-------------|----------|
-| Wooden sticks      | 285           | 28.50       | 0.95     |
-| Gloss varnish      | 250 g         | 13.75       | 0.46     |
-| Superglue          | 9 tubes       | 9.00        | 0.30     |
-| Glue gun sticks    | 5             | 7.50        | 0.25     |
-| **Total**          | —             | **58.75**   | **1.96** |
+### IoT Integration
+- **Arduino-based control** with Wi-Fi module (RemoteXY) for real-time temperature monitoring
+- **Sun-tracking system** using LDRs and stepper motor to maintain optimal focal alignment
 
 ## Results
-- Maximum supported load: **2.95 kg** (scaled equivalent ≈ 98 metric tons)
-- Vertical displacement at failure threshold: **4 cm**
-- Achieved design requirements: **high efficiency, safety, low cost**
+| Metric                | Without Control | With Control | Improvement |
+|-----------------------|------------------|---------------|-------------|
+| Pump runtime          | 92 s             | 78 s          | ↓ 15.2%     |
+| Electrical energy     | 7.728 J          | 6.552 J       | ↓ 15.21%    |
+| Steam output          | 40 ml            | 35 ml         | Slight trade-off |
 
-## Physics Concepts Applied
-- Newton’s Second Law (\( F = ma \))
-- Rotational equilibrium and torque
-- Density, specific gravity, and buoyant force
-- Stress distribution in curved structures
+In a 50 MW plant (e.g., Andasol 3), this saves **145.56 kW** of parasitic load.
+
+## Physics and Engineering Concepts
+- Stefan-Boltzmann law (radiative heat transfer)
+- Ohm’s law and electrical power (\( P = IV \))
+- Parabolic reflector optics and focal geometry
+- Feedback control systems in IoT
 
 ## Real-World Impact
-This modular, transportable floating bridge offers a scalable solution for rural connectivity in Egypt, supporting decentralization and reducing urban congestion.
+This system increases net CSP efficiency and supports Egypt’s target of **42% renewable energy by 2035**.
 
-
+## Acknowledgments
+We thank Mr. Ahmed Ashour, Mrs. Mohammed El-Zeftawy, Mr. Hany Boules, and Eng. Ahmed Farok for technical support.
