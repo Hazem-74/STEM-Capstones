@@ -10,7 +10,7 @@ Concentrated Solar Power (CSP) plants consume significant electricity to run fee
 
 ### Thermal Regulation and Control
 The system uses an NTC temperature sensor to activate the feedwater pump only when thermal oil temperature ≥ 110°C and deactivate it at ≤ 90°C. Energy savings follow:  
-\( E = P \cdot t = (I \cdot V) \cdot t \)
+$E = P \cdot t = (I \cdot V) \cdot t$
 
 ### Optical Geometry
 Parabolic trough dimensions were derived from concentration ratio equations:  
