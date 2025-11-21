@@ -10,7 +10,7 @@ Egypt loses 55.5 billion m³ of freshwater annually due to inefficient irrigatio
 
 ### Phytoremediation via Chlorophyta (Green Algae)
 Algae absorb nitrates (NO₃⁻), phosphates (PO₄³⁻), and heavy metals during photosynthesis:  
-\( 6CO_2 + 6H_2O + \text{light} \rightarrow C_6H_{12}O_6 + 6O_2 \)  
+$6CO_2 + 6H_2O + \text{light} \rightarrow C_6H_{12}O_6 + 6O_2$  
 
 This process simultaneously purifies water and produces biomass usable as organic fertilizer.
 
@@ -18,7 +18,7 @@ This process simultaneously purifies water and produces biomass usable as organi
 - **pH correction**: from 8.0 to neutral range (7.0–7.4) — **100% efficiency**
 - **TDS reduction**: from ~690 ppm to ~272 ppm — **60.54% efficiency**  
   Efficiency formula:  
-  \( \text{Efficiency} = \frac{|\text{TDS}_{\text{initial}} - \text{TDS}_{\text{final}}|}{\text{TDS}_{\text{initial}}} \times 100\% \)
+  $\text{Efficiency} = \frac{|\text{TDS}_{\text{initial}} - \text{TDS}_{\text{final}}|}{\text{TDS}_{\text{initial}}} \times 100\%$
 
 ## Materials and Cost
 All materials were locally sourced and reused where possible. Total cost was less than 70 L.E. (**< $2.33**).
